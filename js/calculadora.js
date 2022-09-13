@@ -11,3 +11,4 @@ let numero2 = "5";
 // numero2 = numero1 + parseInt(numero2);
 numero2 += numero1;
 console.log(numero2);
+

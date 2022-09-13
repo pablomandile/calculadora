@@ -38,7 +38,7 @@ button {
 }
 
 button:active {
-    background-color: rgb(189, 195, 243);
+    background-color: rgb(171, 180, 245);
 }
 
 .display {
@@ -54,6 +54,6 @@ button:active {
     padding: 20px;
 }
 
-.row-2 {
+.doble {
     grid-row: span 2;
 }
