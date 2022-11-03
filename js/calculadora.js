@@ -12,3 +12,4 @@ let numero2 = "5";
 numero2 += numero1;
 console.log(numero2);
 
+const display = document.getElementById("display")

@@ -2,7 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/scientific-calculator-lcd');
 * {
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
 }
 
@@ -29,17 +29,25 @@ body {
 }
 
 button {
-    cursor: pointer;
+    padding: 1;
     margin: 5px;
-    padding: 0;
-    font-size: 1rem;
+    border-radius: 25px;
+    color: #000000;
+    background-color: #FFFFFF;
     border: none;
-    background: linear-gradient(90deg, rgb(40, 37, 97) 0%, rgba(1,124,165,1) 87%);    border-radius: 25px;
-}
-
-button:active {
-    background-color: rgb(171, 180, 245);
-}
+    box-shadow: 0 0 5px #181f46;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #2f64f3;
+    color: #FFFFFF;
+  }
+  
+  button:active {
+    background-color: #989afd;
+    color: #FFFFFF;
+  }
 
 .display {
     grid-column: 1 / span 6;
